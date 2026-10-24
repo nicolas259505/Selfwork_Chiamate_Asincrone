@@ -1,0 +1,35 @@
+.num{
+    color: #83f52c ;
+    font-size: 70px;
+    text-align: center;
+    background-color: black;
+}
+
+p{
+    font-size: 100px;
+    color: #83f52c ;
+}
+
+button{
+    font-size: 25px;
+    border: 3px solid #83f52c ;
+    border-radius: 50%;
+    height: 50px;
+    width: 150px;
+    color: #83f52c ;
+    background-color: grey;
+}
+
+.timer{
+    font-size: 200px;
+    color: #83f52c ;
+}
+
+div{
+    font-family: "VT323", monospace;
+    font-weight: 900;
+}
+
+body{
+    background-color: black;
+}
