@@ -25,7 +25,7 @@ function conta() {
     if(start.value === ''){
         alert('Inserisci un tempo da cui partire!!');
         return;
-    }
+    };
     
     //con questo if nel caso non ci sia un tempo salvato, utilizzando le altre funzioni, vado ad assegnarli il valore del tempo da me inserito nella variabile start
     if (tempo <= 0) {
@@ -55,7 +55,8 @@ function conta() {
         clearInterval(interval);
         interval = 0;
         tempo = 0;
-        start.value = 0;
+        // dato che non era ancora stato corretto l'esercizio alla consegna, ritestandolo mi sono accorto che se non assegnavo null a start.value ma 0, il timer partiva anche con 0 andando a -1
+        start.value = null;
         result.innerHTML = 0;
         alert(`Hai resettato il Timer!!`);
         
